@@ -1,4 +1,4 @@
-# Changing Window Command for Adobe Fireworks
+# ウィンドウ切換えコマンド for Adobe Fireworks
 
 Adobe Fireworks for Mac を使っていての不満点の一つとして、ウィンドウ切換えをキーボードから行えないというのがあります。それをスクリプトでなんとかしようプロジェクトです。
 
@@ -11,6 +11,8 @@ Adobe Fireworks for Mac を使っていての不満点の一つとして、ウ�
 	ln -s "~/github/CycleThroughWindows/Cycle Through Windows.jsf" “/Applications/Adobe CS3/Adobe Fireworks CS3/Configuration/Commands/Cycle Through Windows.jsf”
 
 などと実行して、シンボリックリンクをFireworksのCommandsフォルダに作成しておきましょう。拡張子をjsfにするのがポイントです。
+
+コマンドメニューから呼出せるようになったら、Fireworksの環境設定でショートカットを割り振っておきましょう。
 
 ## To Do
 
